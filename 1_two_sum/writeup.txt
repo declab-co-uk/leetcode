@@ -1,0 +1,3 @@
+We will tackle this problem by taking into account the extra credit requirement. While we could create a nested loop to iterate through all variables and compare them, this would result in O(n^2) time.
+We can remove the requirement of the nested loop by storing previously iterated values in a hash table with their corresponding location in the array. When we iterate through the array, we can search the map for our desired number (that would be the target - current number).
+If it exists in the hash table, we can export the index of the current number with the index of the number found in the hash table, solving the problem in 0(n) time.
