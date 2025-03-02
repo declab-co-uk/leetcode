@@ -1,0 +1,9 @@
+A hash table is a data structure comprised of key-value pairs. The name "Hash Table" references the process of transforming the key into a unique index for the table, known as "Hashing."
+
+Hashing transforms an input into a fixed-length output using a mathematical formula called a hash function. Hashing is a function that is primarily characterised by the following:
+The functions are deterministic; They will always produce the same output given the same input.
+The hashing function is irreversible; If you are provided with a hash and the hashing function used to create it, you should not be able to reverse engineer the original value (while less critical for hash tables, this is useful to understand for other uses of hashing, such as cryptographic hash functions)
+
+Hash tables are data structures with excellent lookup, insert, and remove speeds, making them helpful in storing non-sequential, sparse data or data with non-numerical indexes.
+
+Hash tables can use multiple data types for the key and value; if the key can be hashed and has equality methods, it can be most standard data types, including complex objects.
